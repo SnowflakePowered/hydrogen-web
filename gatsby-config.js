@@ -43,11 +43,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Snowflake',
-        short_name: 'Snowflake',
+        name: 'hydrogen',
+        short_name: 'hydrogen',
         start_url: '/',
         background_color: '#fff',
-        theme_color: '#d4e5ff',
+        theme_color: '#9694ff',
         display: 'minimal-ui',
         icons: [
           {
