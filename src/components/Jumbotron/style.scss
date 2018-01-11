@@ -2,9 +2,10 @@
 @import '../../layouts/fonts.scss';
 
 .jumbotron {
-  background: $white;
-  background: linear-gradient(to bottom, #fff, #fefefe);
+  background: linear-gradient(to bottom, #2f2f2f, #3f3f3f);
   border-radius: 0px;
+  min-height: calc(100vh - 214px);
+  color: #efefef;
 }
 
 .jumbotron-lead {
@@ -19,4 +20,48 @@
   padding-bottom: 15px;
   border-bottom: 2px solid #e8e8e8;
   border-top: 1px solid #e8e8e8;
+}
+
+.powered-by {
+  font-family: $font-family-title;
+  text-transform: uppercase;
+  line-height: 16px;
+}
+
+.snowflake-logo {
+  padding: 0;
+  margin-bottom: 2px;
+  height: 16px;
+  width: 16px;
+}
+
+// stylelint-disable declaration-no-important
+
+.masthead {
+  position: relative;
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 10px;
+  h1 {
+    line-height: 1;
+  }
+
+  .btn {
+    width: 100%;
+    padding: .8rem 2rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}
+
+.gh-btn {
+  color: $aster;
+  border-color: $aster;
+  outline: none;
+  box-shadow: none;
+  &:hover, &:active {
+    background-color: $aster;
+    color: $white;
+    border-color: $aster;
+  }
 }

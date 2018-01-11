@@ -6,7 +6,7 @@ class SiteNavi extends React.Component {
   render() {
     const { location, title } = this.props
     return (
-      <header className="navbar navbar-expand navbar-light flex-column flex-md-row bd-navbar bg-primary">
+      <header className="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar bg-primary">
         <Link className="navbar-brand mr-0 mr-md-2" to="/" aria-label="Snowflake">
           <img src="/svg/banner.svg" style={{height: 63, width: 300, pointerEvents: 'none', padding: 0, margin: 0}}/>
         </Link>

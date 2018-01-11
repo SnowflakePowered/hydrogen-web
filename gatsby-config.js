@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Snowflake',
-    description: 'Snowflake Emulator Frontend',
-    siteUrl: 'https://snowflakepowe.red',
+    title: 'hydrogen',
+    description: 'hydrogen Emulator Frontend',
+    siteUrl: 'https://hydrogen-app.com',
     author: 'Ronny Chan',
     twitter: 'chyyran',
     adsense: '',

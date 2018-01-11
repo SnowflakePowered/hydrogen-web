@@ -49,7 +49,6 @@ class HomePage extends React.Component {
         />
 
         <Jumbotron />
-        {pageLinks}
       </div>
     )
   }

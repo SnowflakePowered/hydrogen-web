@@ -45,7 +45,7 @@ export default class HTML extends React.Component {
           <link href="/img/favicon.ico" rel="icon" type="image/x-icon" />
           <meta name="msapplication-config" content="/img/browserconfig.xml"/>
         </head>
-        <body>
+        <body style={{backgroundColor: "#3f3f3f"}}>
           <div
             id="___gatsby"
             dangerouslySetInnerHTML={{ __html: this.props.body }}
@@ -55,6 +55,7 @@ export default class HTML extends React.Component {
             async
             src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           />
+          <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
         </body>
       </html>
     )

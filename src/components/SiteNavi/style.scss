@@ -15,6 +15,7 @@ header.navbar {
       border-bottom-color: $lilac;
     }
     .navbar-nav {
+      display: none;      
       .nav-link {
         transition: all 0.3s;
         margin-right: .5rem;
